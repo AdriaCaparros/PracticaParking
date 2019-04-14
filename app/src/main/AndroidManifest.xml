@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".QR"></activity>
+        <activity android:name=".Main10Activity"></activity>
+        <activity android:name=".ParkingList" />
+        <activity android:name=".QR" />
         <activity android:name=".Main9Activity" />
         <activity android:name=".Main8Activity" />
         <activity android:name=".FirtMenuCarNav" />

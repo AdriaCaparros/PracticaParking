@@ -12,14 +12,13 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/button16"
+        <ImageView
+            android:id="@+id/imageView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20dp"
             android:layout_weight="1"
-            android:text="Button" />
+            app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
 
         <TextView
             android:id="@+id/textView32"
