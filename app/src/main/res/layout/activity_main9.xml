@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
     android:orientation="vertical"
     tools:context=".Main9Activity">
 
@@ -23,19 +24,22 @@
         android:layout_marginLeft="20dp"
         android:layout_marginEnd="80dp"
         android:layout_marginRight="80dp"
+        android:textColor="@color/fontColor"
         android:textSize="30sp"
-        tools:text="Payment Methods" />
-
+        tools:text="Payment Methods"
+        app:fontFamily="@font/bebasneue_regular"/>
     <TextView
         android:id="@+id/textView37"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="10dp"
-        android:textSize="24sp"
-        tools:text="Current payment methods" />
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/fontColor"
+        android:textSize="27sp"
+        tools:text="Current payment methods"
+        app:fontFamily="@font/montserrat_bold"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -47,32 +51,31 @@
             android:layout_width="284dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/fontColor"
+            android:textSize="23sp"
+            app:fontFamily="@font/montserrat_bold"
+            tools:text="C.Card 09*********012"
+            android:layout_marginLeft="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
             android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:paddingRight="100dp"
-            android:textSize="24sp"
-            tools:text="C.Card" />
+            app:srcCompat="@drawable/test" />
 
-        <ImageButton
-            android:id="@+id/imageButton9"
-            android:layout_width="77dp"
-            android:layout_height="41dp"
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="49dp"
+            android:layout_height="42dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:contentDescription="TODO"
-            app:srcCompat="@android:drawable/ic_menu_edit" />
-
-        <ImageButton
-            android:id="@+id/imageButton11"
-            android:layout_width="77dp"
-            android:layout_height="41dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:layout_weight="1"
-            android:contentDescription="TODO"
-            app:srcCompat="@android:drawable/ic_delete" />
+            app:srcCompat="@drawable/delete" />
 
     </LinearLayout>
 
@@ -86,32 +89,31 @@
             android:layout_width="284dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/fontColor"
+            android:textSize="23sp"
+            tools:text="C.Card 89*********312"
+            app:fontFamily="@font/montserrat_bold"
+            android:layout_marginLeft="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
             android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:paddingRight="100dp"
-            android:textSize="24sp"
-            tools:text="C.Card" />
+            app:srcCompat="@drawable/test" />
 
-        <ImageButton
-            android:id="@+id/imageButton15"
-            android:layout_width="77dp"
-            android:layout_height="41dp"
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="49dp"
+            android:layout_height="42dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:contentDescription="TODO"
-            app:srcCompat="@android:drawable/ic_menu_edit" />
-
-        <ImageButton
-            android:id="@+id/imageButton16"
-            android:layout_width="77dp"
-            android:layout_height="41dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:layout_weight="1"
-            android:contentDescription="TODO"
-            app:srcCompat="@android:drawable/ic_delete" />
+            app:srcCompat="@drawable/delete" />
 
     </LinearLayout>
 
@@ -125,41 +127,42 @@
             android:layout_width="284dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:paddingRight="100dp"
-            android:textSize="24sp"
-            tools:text="Paypal" />
+            android:textColor="@color/fontColor"
+            android:textSize="23sp"
+            tools:text="Paypal account"
+            app:fontFamily="@font/montserrat_bold"
+            android:layout_marginLeft="20dp" />
 
-        <ImageButton
-            android:id="@+id/imageButton23"
-            android:layout_width="77dp"
-            android:layout_height="41dp"
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
             android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:contentDescription="TODO"
-            app:srcCompat="@android:drawable/ic_menu_edit" />
+            app:srcCompat="@drawable/test" />
 
-        <ImageButton
-            android:id="@+id/imageButton24"
-            android:layout_width="77dp"
-            android:layout_height="41dp"
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
             android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
             android:layout_weight="1"
-            android:contentDescription="TODO"
-            app:srcCompat="@android:drawable/ic_delete" />
+            app:srcCompat="@drawable/delete" />
+
     </LinearLayout>
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="266dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="250dp"
         android:layout_marginRight="100dp"
-        android:text="ADD PAYMENT METHOD" />
+        android:background="@drawable/payment_methodbutton"
+        android:gravity="center|center_horizontal" />
 
 </LinearLayout>

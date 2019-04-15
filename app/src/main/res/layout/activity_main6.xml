@@ -5,23 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/background_start"
     tools:context=".Main6Activity">
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="100dp"
         android:gravity="center"
-        android:text="Hurry"
-        android:textSize="50sp" />
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/bebasneue_regular"
+        android:text="H u r r y"
+        />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
         android:gravity="center"
-        android:text="Check out your email and don't waste more time searching for parking :D"
-        android:textSize="22sp" />
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp"
+        app:fontFamily="@font/montserrat_bolditalic"
+        android:text="Check out your email and don't waste more time searching for parking :D" />
 </LinearLayout>

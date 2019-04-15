@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
     android:orientation="vertical"
     tools:context=".Main2Activity">
 
@@ -14,18 +15,24 @@
         android:layout_marginTop="100dp"
         android:gravity="center"
         android:text="Hi!"
-        android:textSize="50sp" />
+        android:textColor="@color/fontColor"
+        android:textSize="150sp"
+        app:fontFamily="@font/bebasneue_regular" />/>
 
     <EditText
         android:id="@+id/editText5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="50dp"
         android:layout_marginRight="50dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="Typing..." />
+        android:text="Typing..."
+        android:textColor="@color/fontColor"
+        android:hint="Underline color change"
+        android:backgroundTint="@color/fontColor"
+        app:fontFamily="@font/montserrat_regular" />
 
     <EditText
         android:id="@+id/editText6"
@@ -35,7 +42,11 @@
         android:layout_marginRight="50dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="Password" />
+        android:text="Password"
+        android:textColor="@color/fontColor"
+        android:hint="Underline color change"
+        android:backgroundTint="@color/fontColor"
+        app:fontFamily="@font/montserrat_regular"/>
 
     <TextView
         android:id="@+id/textView7"
@@ -43,23 +54,25 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="50dp"
         android:gravity="end"
-        android:text="Forgot password?" />
+        android:text="Forgot password?"
+        app:fontFamily="@font/keepcalm_medium"/>
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginRight="50dp"
-        android:padding="20dp"
-        android:text="Log in NOW" />
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="298dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/sign_in_button" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:gravity="center"
-        android:text="Sign up" />
+        android:layout_marginTop="130dp"
+        android:gravity="bottom|center"
+        android:text="Sign up"
+        android:textColor="@color/fontColor"
+        app:fontFamily="@font/keepcalm_medium" />
+
 </LinearLayout>

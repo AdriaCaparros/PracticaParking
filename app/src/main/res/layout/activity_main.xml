@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/background_start"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -15,9 +15,10 @@
         android:layout_marginTop="100dp"
         android:gravity="center"
         android:textColor="@color/common_google_signin_btn_text_dark_default"
-        android:textSize="50sp"
+        android:textSize="100sp"
         android:textStyle="bold"
-        tools:text="PARK IT!" />
+        app:fontFamily="@font/bebasneue_regular"
+        tools:text="P A R K  I T!" />
 
     <TextView
         android:id="@+id/textView2"
@@ -25,6 +26,8 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp"
+        app:fontFamily="@font/montserrat_bolditalic"
         tools:text="Easy, fast, coinless" />
 
     <EditText
@@ -38,6 +41,10 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="25sp"
+        app:fontFamily="@font/montserrat_bold"
+        android:hint="Underline color change"
+        android:backgroundTint="@color/colorPrimaryDark"
         tools:text="Email" />
 
     <EditText
@@ -49,6 +56,10 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="25sp"
+        android:hint="Underline color change"
+        android:backgroundTint="@color/colorPrimaryDark"
+        app:fontFamily="@font/montserrat_bold"
         tools:text="Password" />
 
     <TextView
@@ -60,17 +71,18 @@
         android:gravity="end"
         android:textAllCaps="false"
         android:textColor="@color/common_google_signin_btn_text_dark_default"
+        app:fontFamily="@font/montserrat_bold"
         tools:text="Forgot password?" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="100dp"
         android:layout_marginRight="50dp"
-        android:padding="20dp"
-        tools:text="Log in NOW" />
+        android:background="@drawable/sign_in_button"
+        android:padding="20dp" />
 
     <TextView
         android:id="@+id/textView4"
@@ -78,6 +90,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:gravity="center"
+        android:textSize="30sp"
         tools:text="Sign up" />
 
 </LinearLayout>
